@@ -3,48 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/ATE_logo_orange.svg" alt="Mit logo" />
+        </a>
+      </div>
       <nav>
-        <img src="img/ATE_logo_orange.svg" alt="Mit logo" class="logo" />
-        <ul>
+        <ul class="menu">
           <li><a href="index.html">Forside</a></li>
           <li><a href="om_mig.html">Om mig</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
       </nav>
     </header>
+
     <main>
       <h1>Portfolio</h1>
       <section>
         <h2>Grundlæggende web</h2>
-        <a href="grundlæggende_web.html">
-          <img src="img/tema_2_redigeret.webp" alt="Et billede af tema 2 hjemmeside" />
-        </a>
+        <div class="projekt_billede">
+          <a href="grundlæggende_web.html">
+            <img src="img/tema_2_redigeret.webp" alt="Et billede af tema 2 hjemmeside" />
+          </a>
+        </div>
       </section>
       <section>
         <h2>Grundlæggende UX/UI</h2>
-        <a href="grundlæggende_UX_UI.html">
-          <img src="img/tema_3_redigeret.webp" alt="Et billede af tema 3 hjemmeside" />
-        </a>
+        <div class="projekt_billede">
+          <a href="grundlæggende_UX_UI.html">
+            <img src="img/tema_3_redigeret.webp" alt="Et billede af tema 3 hjemmeside" />
+          </a>
+        </div>
       </section>
       <section>
         <h2>Grundlæggende brugergrænsefladeudvikling</h2>
-        <a href="grundlæggende_bruger.html">
-          <img src="img/tema_4_redigeret.webp" alt="Et billede af tema 4 hjemmeside" />
-        </a>
+        <div class="projekt_billede">
+          <a href="grundlæggende_bruger.html">
+            <img src="img/tema_4_redigeret.webp" alt="Et billede af tema 4 hjemmeside" />
+          </a>
+        </div>
       </section>
       <section>
         <h2>Grundlæggende indhold</h2>
-        <a href="grundlæggende_indhold.html">
-          <img src="img/tema_5_redigeret.webp" alt="Et billede af tema 5 hjemmeside" />
-        </a>
+        <div class="projekt_billede">
+          <a href="grundlæggende_indhold.html">
+            <img src="img/tema_5_redigeret.webp" alt="Et billede af tema 5 hjemmeside" />
+          </a>
+        </div>
       </section>
     </main>
     <footer>
       <p>&copy; 2025. All rights reserved. Adrian Egeberg</p>
     </footer>
+
+    <script src="Javascript/menu.js"></script>
   </body>
 </html>

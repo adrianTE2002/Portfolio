@@ -1,0 +1,74 @@
+h1,
+h2,
+h3,
+p {
+  margin: 0 20px;
+}
+.om-mig {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  line-height: 2;
+}
+
+img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.erhvervserfaring h1,
+.uddannelse h1 {
+  margin: 80px 20px 30px 20px;
+}
+.erhvervserfaring div,
+.uddannelse div {
+  margin-bottom: 20px;
+}
+
+@media (width >800px) {
+  .om-mig {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: start;
+  }
+
+  .om-mig h2,
+  .om-mig h3,
+  .om-mig p {
+    margin: 0 60px 0 0;
+  }
+
+  .om-mig img {
+    width: 70%;
+    max-width: 70px;
+  }
+
+  .om-mig h1 {
+    grid-column: 1 / -1;
+  }
+
+  .om-mig h2,
+  .om-mig p {
+    grid-column: 2;
+  }
+
+  .om-mig img {
+    grid-column: 1;
+    grid-row: 2 / span 4;
+    max-width: 100%;
+  }
+
+  .om-mig .btn {
+    margin: 20px 0 0 0;
+    justify-self: start;
+  }
+
+  .erfaring {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
