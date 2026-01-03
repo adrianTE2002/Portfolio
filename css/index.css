@@ -1,0 +1,55 @@
+/* Tekst og billede på forsiden */
+.tekst-billede {
+  display: grid;
+  margin-bottom: 100px;
+}
+.tekst-billede * {
+  grid-area: 1 / 1;
+}
+.tekst-billede img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+.tekst {
+  align-self: start;
+  justify-self: start;
+  margin-top: 25%;
+  margin-left: 10%;
+}
+
+/* udforsk projekter */
+.projekter {
+  margin: 0 20px;
+}
+h1,
+section {
+  margin-bottom: 20px;
+}
+img {
+  margin: 20px 0;
+}
+.projekt_billede {
+  overflow: hidden;
+}
+
+.projekt_billede img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.projekt_billede:hover img {
+  transform: scale(1.05);
+  opacity: 0.85;
+}
+
+@media (width >800px) {
+  .projekter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  h1 {
+    grid-column: 1 / -1;
+  }
+}

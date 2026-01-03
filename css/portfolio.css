@@ -1,0 +1,33 @@
+main {
+  margin: 0 20px;
+}
+h1,
+section {
+  margin-bottom: 20px;
+}
+img {
+  margin: 20px 0;
+}
+.projekt_billede {
+  overflow: hidden;
+}
+
+.projekt_billede img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.projekt_billede:hover img {
+  transform: scale(1.05);
+  opacity: 0.85;
+}
+@media (width >800px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  h1 {
+    grid-column: 1 / -1;
+  }
+}

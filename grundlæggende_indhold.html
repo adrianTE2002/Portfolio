@@ -3,52 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/grundlæggende_indhold.css" />
     <title>Grundlæggende indhold</title>
   </head>
   <body>
     <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/ATE_logo_orange.svg" alt="Mit logo" />
+        </a>
+      </div>
       <nav>
-        <img src="img/ATE_logo_orange.svg" alt="Mit logo" class="logo" />
-        <ul>
+        <ul class="menu">
           <li><a href="index.html">Forside</a></li>
           <li><a href="om_mig.html">Om mig</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
       </nav>
     </header>
     <main>
       <h1>Grundlæggende indhold</h1>
-      <p>
-        I Tema 5 arbejdede jeg med indholdsproduktion til digitale løsninger med fokus på hele processen fra idé og planlægning til produktion og præsentation. Temaet gav mig en grundlæggende forståelse for, hvordan godt indhold understøtter både
-        brugeroplevelse og visuel kommunikation.
-      </p>
-      <p>
-        Jeg arbejdede med pre produktion, produktion og postproduktion af indhold, herunder fotografering med smartphone, billedredigering i Adobe Photoshop og animeret vektorgrafik med After Effects. Derudover arbejdede jeg med tekst, visuel
-        storytelling og tilpasning af indhold til web.
-      </p>
-      <p>I dette tema havde vi to opgaver:</p>
-      <div>
+      <div class="indhold">
+        <p>
+          I Tema 5 arbejdede jeg med indholdsproduktion til digitale løsninger med fokus på hele processen fra idé og planlægning til produktion og præsentation. Temaet gav mig en grundlæggende forståelse for, hvordan godt indhold understøtter både
+          brugeroplevelse og visuel kommunikation.
+        </p>
+        <p>
+          Jeg arbejdede med pre produktion, produktion og postproduktion af indhold, herunder fotografering med smartphone, billedredigering i Adobe Photoshop og animeret vektorgrafik med After Effects. Derudover arbejdede jeg med tekst, visuel
+          storytelling og tilpasning af indhold til web.
+        </p>
+        <p>I dette tema havde vi to opgaver:</p>
+      </div>
+      <div class="opgave-1">
+        <h2>Indholdsproduktion</h2>
         <p>
           Den første var en selvstædigt projekt om vores sandkassesite med fokus på indholdsproduktionen ved hjælp af AI, Adobe photoshop og Adobe illustrator. Hvis du kunne tænke dig at se min løsning af opgaven, kan den ses på billedet, og ved at
           klikke på linket nedenfor. Vil du lære mere om processen bag hjemmesiden, kan du klikke herunder.
         </p>
         <img src="img/tema_5-1_redigeret.webp" alt="Et billede af tema 5 hjemmeside" />
-        <a href="https://adriante2002.github.io/Sandbox_site/" class="btn">Se hjemmesiden</a>
-        <a href="https://www.figma.com/design/Xsb07bEdiegsoTScxzkPOC/Sandkasse-site---Kinesisk-te?node-id=0-1&t=6y68uDeUg1WFGJAG-1" class="btn">Se designprocessen</a>
+        <div class="knapper">
+          <a href="https://adriante2002.github.io/Sandbox_site/" class="btn">Se hjemmesiden</a>
+          <a href="https://www.figma.com/design/Xsb07bEdiegsoTScxzkPOC/Sandkasse-site---Kinesisk-te?node-id=0-1&t=6y68uDeUg1WFGJAG-1" class="btn">Se designprocessen</a>
+        </div>
       </div>
-      <div>
+      <div class="opgave-2">
+        <h2>Redesign af virksomheds hjemmeside</h2>
         <p>
           Den anden temaopgave var gruppeprojekt der bestod i et redesign af en virksomheds hjemmeside, hvor vi producerede nyt layout, tekst, billeder og animationer til en selvvalgt virksomhed. Her anvendte jeg mine kompetencer fra tidligere temaer
           inden for UX, UI og frontend til at skabe en samlet, indholdsbaseret løsning. Hvis du kunne tænke dig at se min løsning af opgaven, kan den ses på billedet, og ved at klikke på linket nedenfor. Vil du lære mere om processen bag hjemmesiden,
           kan du klikke herunder.
         </p>
         <img src="img/tema_5_redigeret.webp" alt="Et billede af tema 5 hjemmeside" />
-        <a href="https://adriante2002.github.io/virksomhedsite---min-egen/" class="btn">Se hjemmesiden</a>
-        <a href="https://www.figma.com/design/GZfCDEYXgLCQRySgMd32XG/Virkesomhedssite---Hudklinikken-%C3%B8sterport?node-id=74-13&t=lCQopEmqtgqLjEEz-1" class="btn">Se designprocessen</a>
+        <div class="knapper">
+          <a href="https://adriante2002.github.io/virksomhedsite---min-egen/" class="btn">Se hjemmesiden</a>
+          <a href="https://www.figma.com/design/GZfCDEYXgLCQRySgMd32XG/Virkesomhedssite---Hudklinikken-%C3%B8sterport?node-id=74-13&t=lCQopEmqtgqLjEEz-1" class="btn">Se designprocessen</a>
+        </div>
       </div>
     </main>
     <footer>
       <p>&copy; 2025. All rights reserved. Adrian Egeberg</p>
     </footer>
+
+    <script src="Javascript/menu.js"></script>
   </body>
 </html>

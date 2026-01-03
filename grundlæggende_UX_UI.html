@@ -3,37 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/grundlæggende.css" />
     <title>Grundlæggende UX/UI</title>
   </head>
   <body>
     <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/ATE_logo_orange.svg" alt="Mit logo" />
+        </a>
+      </div>
       <nav>
-        <img src="img/ATE_logo_orange.svg" alt="Mit logo" class="logo" />
-        <ul>
+        <ul class="menu">
           <li><a href="index.html">Forside</a></li>
           <li><a href="om_mig.html">Om mig</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
       </nav>
     </header>
     <main>
       <h1>Grundlæggende UX/UI</h1>
       <img src="img/tema_3_redigeret.webp" alt="Et billede af tema 3 hjemmeside" />
-      <p>
-        I Tema 3 arbejdede jeg med UX og UI som fundament for udviklingen af brugervenlige digitale løsninger. Jeg lærte at arbejde med en struktureret UX/UI-proces baseret på research, idéudvikling, prototyper og test, hvor designbeslutninger blev
-        truffet på baggrund af brugerindsigter frem for antagelser.
-      </p>
-      <p>Jeg arbejdede med værktøjer og metoder som Figma, wireframes, mockups, user stories og brugertest, herunder tænk højt og 5-second tests.</p>
-      <p>
-        Temaet afsluttedes med design og udvikling af et emnesite, hvor jeg omsatte UX/UI-processen til et færdigt digitalt produkt. Her arbejdede jeg både med dokumentation og præsentation af processen, hvilket gav mig erfaring med at formidle mine
-        designvalg og løsninger.
-      </p>
-      <p>Min løsning af opgaven kan ses på billedet til venstre, og ved at klikke på linket nedenfor. Hvis du vil lære mere om processen bag hjemmesiden, kan du også klikke herunde.</p>
-      <a href="https://adriante2002.github.io/Emnesite/Emnesite/index.html" class="btn">Se hjemmesiden</a>
-      <a href="https://www.figma.com/design/YuF8tVjJx0v42e6GOL3k2k/Emnesite-projekt?node-id=0-1&t=F9wM4x5bEMp77j9s-1" class="btn">Se designprocessen</a>
+      <div>
+        <p>
+          I Tema 3 arbejdede jeg med UX og UI som fundament for udviklingen af brugervenlige digitale løsninger. Jeg lærte at arbejde med en struktureret UX/UI-proces baseret på research, idéudvikling, prototyper og test, hvor designbeslutninger blev
+          truffet på baggrund af brugerindsigter frem for antagelser.
+        </p>
+        <p>Jeg arbejdede med værktøjer og metoder som Figma, wireframes, mockups, user stories og brugertest, herunder tænk højt og 5-second tests.</p>
+        <p>
+          Temaet afsluttedes med design og udvikling af et emnesite, hvor jeg omsatte UX/UI-processen til et færdigt digitalt produkt. Her arbejdede jeg både med dokumentation og præsentation af processen, hvilket gav mig erfaring med at formidle
+          mine designvalg og løsninger.
+        </p>
+        <p>Min løsning af opgaven kan ses på billedet til venstre, og ved at klikke på linket nedenfor. Hvis du vil lære mere om processen bag hjemmesiden, kan du også klikke herunde.</p>
+      </div>
+
+      <div class="knapper">
+        <a href="https://adriante2002.github.io/Emnesite/Emnesite/index.html" class="btn">Se hjemmesiden</a>
+        <a href="https://www.figma.com/design/YuF8tVjJx0v42e6GOL3k2k/Emnesite-projekt?node-id=0-1&t=F9wM4x5bEMp77j9s-1" class="btn">Se designprocessen</a>
+      </div>
     </main>
     <footer>
       <p>&copy; 2025. All rights reserved. Adrian Egeberg</p>
     </footer>
+
+    <script src="Javascript/menu.js"></script>
   </body>
 </html>
