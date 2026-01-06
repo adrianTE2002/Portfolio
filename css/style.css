@@ -122,6 +122,14 @@ footer {
   color: #777;
 }
 
+figcaption {
+  /* text-align: center; */
+  font-style: italic;
+  font-size: 0.8rem;
+  color: #555;
+  margin-top: 7px;
+}
+
 @media (max-width: 800px) {
   .burger {
     display: flex;
